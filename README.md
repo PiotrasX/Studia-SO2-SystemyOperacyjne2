@@ -1,2 +1,4 @@
-# Studia-SO2-SystemyOperacyjne2
-Opis główny
+# Studia - SO2 - Systemy Operacyjne 2
+Opis 1  
+Opis 2  
+Opis 3  
