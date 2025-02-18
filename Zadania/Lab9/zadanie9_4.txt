@@ -1,0 +1,5 @@
+Znaki do zmiany kolejnosci.
+Teskt do zmiany kolejnosci.
+Linia pliku 3
+Linia pliku 4
+Linia pliku 5

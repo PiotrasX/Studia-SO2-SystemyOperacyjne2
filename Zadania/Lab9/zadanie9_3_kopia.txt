@@ -1,0 +1,5 @@
+Tekst, który zostanie skopiowany.
+Test kopiowania.
+Linia pliku 3
+Linia pliku 4
+Linia pliku 5
