@@ -1,0 +1,18 @@
+Wejściowe dane: 
+    Tablica trójwymiarowa, gdzie każdy element może być nazwą katalogu lub pliku.
+
+Początek: 
+    Funkcja zaczyna od korzenia drzewa (poziom 0 w tablicy) i tworzy katalog główny.
+
+Rekurencja:
+    Dla każdego katalogu lub pliku na bieżącym poziomie:
+        * Funkcja sprawdza, czy jest to katalog. Jeśli tak, tworzy go za pomocą odpowiedniej funkcji systemowej "mkdir".
+        * Następnie funkcja przechodzi do wnętrza tego katalogu za pomocą funkcji systemowej "chdir".
+        * Wywołuje funkcję rekurencyjnie, aby utworzyć podkatalogi i pliki na głębszych poziomach (funkcja przechodzi na kolejny wymiar tablicy).
+    Jeśli element jest plikiem, funkcja tworzy go za pomocą funkcji systemowej "fopen".
+
+Powrót: 
+    Po przetworzeniu wszystkich dzieci danego katalogu, funkcja wraca do katalogu nadrzędnego za pomocą "chdir".
+
+Zakończenie: 
+    Proces powtarza się rekurencyjnie dla wszystkich poziomów drzewa, aż do momentu, gdy całe drzewo zostanie odwzorowane w systemie plików.
