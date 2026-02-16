@@ -1,0 +1,5 @@
+Napisz program vfork.asm, który wywołuje funkcję systemową vfork() i rozdziela wykonanie 
+na proces potomny oraz macierzysty. W procesie potomnym wypisz na standardowe wyjście komunikat 
+„Proces potomny”, a w procesie macierzystym „Proces macierzysty”, a następnie zakończ oba procesy 
+odpowiednimi kodami wyjścia. Dodatkowo w języku C przygotuj wersję referencyjną programu vfork.c 
+realizującą to samo oraz wykonaj test porównujący działanie obu wersji.
