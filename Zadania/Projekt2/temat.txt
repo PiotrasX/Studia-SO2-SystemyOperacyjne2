@@ -1,0 +1,5 @@
+Napisz program add2path.c, który umożliwia dodawanie lub usuwanie wskazanego katalogu z zmiennej 
+środowiskowej PATH użytkownika w systemie Windows. Program ma obsługiwać dwa tryby działania: 
+add (dopisz katalog do PATH, jeśli go nie ma) oraz remove (usuń katalog z PATH, jeśli istnieje), 
+a przy braku ścieżki ma używać bieżącego katalogu. Zmiana ma być wykonywana poprzez modyfikację wpisu 
+HKEY_CURRENT_USER\Environment\Path w rejestrze i wypisanie na wyjściu komunikatu o wyniku operacji.
