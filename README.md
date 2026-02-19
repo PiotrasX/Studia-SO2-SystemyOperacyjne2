@@ -1,4 +1,4 @@
-# 📘 Studia - SO2 - Systemy Operacyjne 2
+# 📘 Studia – SO2 – Systemy Operacyjne 2
 
 Repozytorium zawiera rozwiązania zadań opracowane w ramach przedmiotu **Systemy Operacyjne 2**, realizowanego na Uniwersytecie Rzeszowskim podczas piątego (5) semestru studiów inżynierskich na kierunku Informatyka.  
 
